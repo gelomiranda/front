@@ -8,6 +8,12 @@ angular.module('app', ['components','ngRoute'])
         .when('/email-link', {
             templateUrl : 'views/admin/email-link.html'
         })
+        .when('/loan-category', {
+            templateUrl : 'views/admin/loan-category.html'
+        })
+        .when('/new-category', {
+            templateUrl : 'views/admin/new-category.html'
+        })
         .when('/client', {
             templateUrl : 'views/admin/client.html'
         })

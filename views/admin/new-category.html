@@ -1,12 +1,15 @@
-<div class="card">
-  <div class="card-header  bg-success">
-    <h3 class="card-title">List Of Client(s)</h3>
-
-  </div>
-  <!-- /.card-header -->
-  <div class="card-body">
-    <div>
+<div class="row">
+  <!-- left column -->
+  <div class="col-md-12">
+    <!-- general form elements -->
+    <div class="card card-success">
+      <div class="card-header">
+        <h3 class="card-title">Create New Category</h3>
+      </div>
+      <!-- /.card-header -->
+      <!-- form start -->
       <form role="form">
+        <div class="card-body">
           <div class="row">
             <div class="col-md-6">
               <div class="form-group">
@@ -48,43 +51,17 @@
                 </div>
               </div>
             </div>
+          </div>
         </form>
+        </div>
+        <!-- /.card-body -->
+        <div class="card-footer">
+          <div class="float-right">
+            <button type="submit" class="btn btn-success"><i class="fa fa-save"></i> Save Category</button>
+          </div>
+        </div>
+      </form>
     </div>
-    <table id="example1" class="table table-bordered table-striped">
-      <thead>
-      <tr>
-        <th>Loan No.</th>
-        <th>Name</th>
-        <th>Amount</th>
-        <th>Terms</th>
-        <th>Interest</th>
-        <th>Date Created</th>
-        <th>Status</th>
-      </tr>
-      </thead>
-      <tbody>
-      <tr>
-        <td><a ng-href="#!/client/0000001">00000001</a></td>
-        <td>Juan Dela Cruz</td>
-        <td>10.000 PHP</td>
-        <td>3 Months</td>
-        <td>10 %</td>
-        <td>June 1, 2018</td>
-        <td>Approved</td>
-      </tr>
-      
-      <tr>
-        <td><a ng-href="#!/client/0000001">00000001</a></td>
-        <td>Juan Dela Cruz</td>
-        <td>10.000 PHP</td>
-        <td>3 Months</td>
-        <td>10 %</td>
-        <td>June 1, 2018</td>
-        <td>Approved</td>
-      </tr>
-      </tfoot>
-    </table>
+    <!-- /.card -->
   </div>
-  <!-- /.card-body -->
 </div>
-<!-- /.card -->
