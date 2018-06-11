@@ -20,6 +20,9 @@ angular.module('app', ['components','ngRoute'])
         .when('/client/:id', {
             templateUrl : 'views/client/loan_detail.html'
         })
+        .when('/investor', {
+            templateUrl : 'views/admin/investor.html'
+        })
         .when('/item/:name', {
             templateUrl : 'views/single.html',
             controller  : 'ShopController'
